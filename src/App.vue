@@ -1,19 +1,16 @@
 <script>
-
-import TextBind from './components/TextBind.vue';
-
-// vue 사용 선언
 export default {
-  components : {
-    TextBind,
-  }
+  methods : {
+    sayHello(){
+      return "Hello World";
+    }
+  },
 }
 </script>
 
 <template>
-  <TextBind/>
+  <h2>{{sayHello()}}</h2>
 </template>
 
 <style>
-
 </style>
